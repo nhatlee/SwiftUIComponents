@@ -8,7 +8,7 @@
 import SwiftUI
 import PhotosUI
 
-@Observable final class ImagePickers {
+@Observable public final class ImagePickers {
     var image: Image?
     var imageSelection: PhotosPickerItem? {
         didSet {
